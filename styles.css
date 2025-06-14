@@ -251,10 +251,10 @@ a {
 .app-promo {
     text-align: center;
     padding: 4rem 2rem;
-    background: transparent; /* CHANGED from rgba(...) to transparent */
-    border-top: none;        /* Prevent unexpected top border */
-    border-bottom: none;     /* Prevent unexpected bottom border */
-    box-shadow: none;        /* Just in case */
+    background: transparent;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
 }
 
 .promo-content {
@@ -275,14 +275,82 @@ a {
     color: rgba(255, 255, 255, 0.5);
 }
 
-
 .fade-in {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
 .fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ----------------- Responsive Enhancements ----------------- */
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 0.75rem;
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .hero-headline {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card-text h3 {
+        font-size: 1.4rem;
+    }
+
+    .card-image img {
+        max-width: 240px;
+    }
+
+    .notification-text h2 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+}
+
+/* Tablet (769px–1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-headline {
+        font-size: 2.4rem;
+    }
+
+    .card-image img {
+        max-width: 280px;
+    }
+
+    .notification-text h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Large screens (≥1025px) */
+@media (min-width: 1025px) {
+    .hero-headline {
+        font-size: 3rem;
+    }
+
+    .card-image img {
+        max-width: 320px;
+    }
 }
