@@ -2,7 +2,7 @@
 
 **Nodus Status** is a lightweight macOS menu bar utility that monitors your internet and Ethernet connection in real time. Designed with a minimal aesthetic and privacy-first philosophy, it gives users an at-a-glance view of their network health.
 
-![Nodus Status Preview](assets/green-status.png)
+![Nodus Status Preview](assets/state-green.png)
 
 ---
 
