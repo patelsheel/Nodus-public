@@ -2,7 +2,7 @@
 
 **Nodus Status** is a lightweight macOS menu bar utility that monitors your internet and Ethernet connection in real time. Designed with a minimal aesthetic and privacy-first philosophy, it gives users an at-a-glance view of their network health.
 
-![Nodus Status Preview](assets/state-green.png)
+![Nodus Status Preview](assets/screenshot.png)
 
 ---
 
@@ -26,16 +26,14 @@ Additional features:
 Nodus Status was created to fill the gap between overcomplicated network tools and vague status indicators. It's:
 - **Private**: No data ever leaves your machine.
 - **Transparent**: Everything visible and easy to understand.
-- **Beautiful**: Minimal UI, dark-friendly, and subtle animations.
+- **Minimal**: Clean UI with a focused and distraction-free design.
 
 ---
 
 ## 🛠 Built With
 
-- HTML / CSS (custom dark theme, Apple-style UI)
-- JavaScript (for UI interaction and animation)
-- macOS App (Swift-based menu bar utility – not included here)
-- Hosted with [Cloudflare Pages](https://pages.cloudflare.com/)
+- Swift (macOS menu bar app)
+- Hosted with [Cloudflare Pages](https://pages.cloudflare.com/) for marketing website
 
 ---
 
@@ -49,20 +47,11 @@ Nodus Status was created to fill the gap between overcomplicated network tools a
 
 ---
 
-## 🧠 Coming Soon
-
-- App Store listing
-- GitHub Issues for bugs & suggestions
-- Localisation support (English, French, more)
-
----
-
 ## 📮 Contact
 
 Need help or want to collaborate?
 
-- 📧 Email: [sheel.patel.dev@gmail.com](mailto:sheel.patel.dev@gmail.com)
-- 🌐 Website: [nodus-status.sheel-patel.com](https://nodus-status.sheel-patel.com)
+- 📧 Email: [contact@sheel-patel.com](mailto:contact@sheel-patel.com)
 
 ---
 
