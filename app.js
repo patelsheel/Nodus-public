@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "LAN Only",
             subtitle: "Yellow state – WAN / DNS issue",
             description:
-                "Router is fine but something’s off beyond it. Gateway responds but DNS or public-IP checks fail. Nodus suggests next steps so you can restore full connectivity.",
+                "Router is fine, but something’s off beyond it. Gateway responds, but DNS or public IP checks fail. Nodus surfaces this clearly so you know exactly where things break.",
             image: "assets/state-yellow.png",
             accent: "card-accent-yellow",
         },
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Offline",
             subtitle: "Red state – No DHCP",
             description:
-                "169.x.x.x address detected: no lease. Your Mac has no valid IP. Check cables, reboot the router, or contact your ISP — Nodus has the diagnostics ready.",
+                "Failed to fetch public IP. Likely no internet or a DHCP issue. Nodus makes it clear when you’re offline.",
             image: "assets/state-red.png",
             accent: "card-accent-red",
         },
